@@ -7,7 +7,7 @@ end #end if1
 #counter = 0
 total = []
 div.each{ |element| total << num % element}
-if total.includes?(0)
+if total.include?(0)
   return false
 else 
   return true 
