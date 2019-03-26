@@ -25,6 +25,5 @@ num2 = div[index]
 
     end 
   end 
-end 
- 
+end  X:\19\19-0043 200WJacksonTntSpcSteBldOutFl12\ISSUANCES\2019.03.26 Elec QC set
      
