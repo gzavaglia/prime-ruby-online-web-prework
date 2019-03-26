@@ -7,8 +7,11 @@ len = div.size
 counter = 0
 total = []
 div.each{ |element| total << num/element}
-
-
+if total.includes?(0)
+  return false
+else 
+  return true 
+end #end if2 
 end #end method  
 
 # until counter == len 
