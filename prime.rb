@@ -5,9 +5,8 @@ if num <= 0 || num ==1
 end #end if1
 len = div.size 
 counter = 0
-while counter <= len 
-
-end #end while1
+total = []
+div.each{ |element| total << num/element}
 
 
 end #end method  
