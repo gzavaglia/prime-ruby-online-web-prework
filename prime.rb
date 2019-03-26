@@ -7,12 +7,12 @@ len = div.size
 counter = 0 
 until counter == len 
 key = div[counter]
-rest = num/key 
+rest = num%key 
 if rest == 0 
   return false
 else 
   counter +=1
-  rest2 = num/key
+  rest2 = num%key
   if rest2 == 0 
     return false
   else 
