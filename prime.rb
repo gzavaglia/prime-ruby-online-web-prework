@@ -7,8 +7,10 @@ len = div.size
 counter = 0
 while counter <= len 
 tst(num,div[counter])
+counter+=1 
 end 
 end 
+
 # until counter == len 
 # key = div[counter]
 # rest = num%key 
