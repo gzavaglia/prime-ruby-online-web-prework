@@ -29,7 +29,7 @@ end
 # end 
 
 def tst(num1,num2)
-  numx = num1%num2
+  numx = num1 % num2
   if numx == 0
     return false 
   else 
